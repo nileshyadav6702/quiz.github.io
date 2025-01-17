@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    font-family: Poppins;
+    background: #cce2c2;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    color:#40c045;
+    text-decoration: none;
+}
+
+/** hero-section **/
+.hero-section{
+    max-width: 900px;
+    margin-inline:auto;
+    margin-top:2rem;
+}
+.upper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper .quiz-logo{
+    width: 222px;
+}
+.audio{
+    width: 36px;
+}
+.sound-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top:20px
+}
+.page-count{
+    font-size: 35.5px;
+    font-weight: bold;
+    background: #fec33d;
+    border-radius: 9px;
+    padding:2px 5px;
+    margin-top:20px;
+}
+
+/**question field **/
+.questionfield{
+    padding:3rem 2rem;
+    width: 100%;
+    margin-top:20px;
+    background: #eaf0e7;
+    border-radius:13px;
+}
+.question{
+    font-size:24px;
+    font-weight: 600;
+}
+
+.timer{
+    background: #44b845;
+    width:max-content;
+    padding:2px 10px;
+    font-size: 35.25px;
+    color:white;
+    font-weight: 600;
+    border-radius: 6.66px;
+    margin-left: auto;
+    margin-block:10px;
+}
+/** options **/
+.options{
+    width: 100%;
+    background: #eaf0e7;
+    border-radius: 13px;
+    padding:10px 20px;
+    margin-bottom:10px;
+}
+.option{
+    width: 100%;
+    padding:15px 20px;
+    border: 3px solid #d9d9d9;
+    border-radius: 8px;
+    margin-block:2rem;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.next-part{
+    font-size: 24px;
+    font-weight: 600;
+    color:#44b845;
+    width:max-content;
+    margin-left:auto;
+    margin-bottom:3rem;
+    cursor: pointer;
+}
+/** correct and wrong **/
+.gray{
+    border-color: #d9d9d9; 
+}
+.wrong{
+    border-color:#fe8180;
+}
+.correct{
+    border-color:#40c045;
+}
+.pointer{
+    pointer-events: none;
+}
+
+
+@media (max-width:600px){
+    .hero-section{
+        margin-top: 0;
+        margin-inline:10px;
+
+    }
+    .option{
+        padding: 7px 11px;
+        font-size: 20px;
+        margin-block: 1rem;
+    }
+    .questionfield p{
+        font-size: 20px;
+    }
+    .questionfield{
+        padding: 24px 15px;
+
+    }
+    .upper .quiz-logo{
+        width: 150px;
+    }
+    .audio{
+        width: 25px;
+    }
+    .page-count{
+        border-radius: 5px;
+        font-size: 20px;
+    }
+}

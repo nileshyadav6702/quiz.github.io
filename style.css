@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    font-family: Poppins;
+    background: #cce2c2;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/** starter page **/
+.main{
+    max-width: 862px;
+    margin-inline: auto;
+    margin-top:5rem;
+}
+.main img{
+    max-width:100%;
+}
+.main .start-btn{
+    margin-inline: auto;
+    max-width: 465px;
+    height: 120px;
+    background-color: #01AB08;
+    border-radius: 9px;
+    margin-top:2rem;
+    
+    
+}
+.main .content{
+    max-width: 450px;
+    margin:0 10px 10px 0;
+    
+    background: #35BD3A;
+    border-radius: 9px;
+    padding-top:1.5rem;
+
+}
+.content p{
+    font-size: 3.3rem;
+    text-align: center;
+}
+.content p a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+@media (max-width:500px){
+    .main .start-btn{
+        margin-inline: 20px;
+        height: max-content;
+    }
+    .content{
+        margin-bottom: 20px;
+    }
+    .content p{
+        margin-top:-20px;
+        font-size: 2rem;
+    }
+
+}

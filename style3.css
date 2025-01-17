@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    font-family: Poppins;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    max-width: 900px;
+    margin-inline: auto;
+    display: none;
+}
+.top{
+    max-width: 200px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-inline: auto;
+}
+.top img{
+    width: 100%;
+   
+}
+.top p{
+    margin-top:-20px;
+    margin-left:20px ;
+}
+
+.progress-bar{
+    margin-inline:auto;
+    max-width:600px;
+    background: #ff7a7a;
+    height: 100px;
+    margin-top: 7rem;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.correct-bar{
+    height: 100%;
+    width: 50%;
+    background: #35bd3a;
+    border-radius: 10px;
+}
+#progress-value{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:20px;
+}
+.left-part{
+    position: absolute;
+    z-index: 1;
+    top:40%;
+    left:-8%;
+    
+
+}
+.left-part p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:-10px;
+
+}
+.right-part{
+    position: absolute;
+    z-index: 1;
+    top:40%;
+    right:-8%;
+    
+
+}
+.right-part p{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right:-20px;
+
+}
+.quotes p{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:5rem;
+}
+.retry-btn{
+    width: 220px;
+    height: 61px;
+    background-color: #01ab08;
+    border-radius: 6px;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+.retry-btn p{
+    width: 96.5%;
+    height: 90%;
+    border-radius: 6px;
+    background-color: #35bb3a;
+    font-size: 26px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    padding-top:10px;
+    cursor: pointer;
+}
+
+
+@media (max-width:600px){
+    .progress-bar{
+        height: 70px;
+        margin-inline: auto;
+        margin-top: 2rem;
+        max-width: 350px;
+    }
+    .main{
+        padding-inline:auto;
+    }
+    .quotes p{
+        font-size: 25px;
+        margin-top:2rem;
+    }
+}

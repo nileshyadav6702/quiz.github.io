@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="/script2.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <title>main part</title>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="upper">
+            <img class="quiz-logo" src="/quiz logo.png" alt="">
+            <div class="sound-page">
+                <audio src="/correct.mp3" id="correct"></audio>
+                <audio src="/wrong sound.mp3" id="wrong"></audio>
+                <img src="/🦆 icon _Volume Up_.svg" class="audio">
+                <div class="page-count">0/5</div>
+            </div>
+        </div>
+
+        <div class="questionfield">
+            <p class="question"></p>
+        </div>
+
+        <div class="timer">
+            <span>00:<span id="counter">30</span></span>
+        </div>
+
+        <div class="options">
+            <div class="option one"> </div>
+            <div class="option two"> </div>
+            <div class="option three"> </div>
+            <div class="option four"></div>
+        </div>
+
+        <div class="next-part">
+            <p>Next></p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="top">
+            <img src="/quiz logo.png" alt="">
+            <p>Result</p>
+        </div>
+        <div class="progress-bar">
+            <div class="left-part">
+                <img class="angle-left" src="/angle left.svg" alt="">
+                <p id="correct-value">0%</p>
+                
+            </div>
+            <div class="correct-bar">
+            </div>
+            <div class="right-part">
+                <img class="angle-right" src="/angle right.svg" alt="">
+                <p id="wrong-value">100%</p>
+                
+            </div>
+            
+        </div>
+        <p id="progress-value">0/5</p>
+
+        <div class="quotes">
+            <p>“Keep learning, you have a good score!”</p>
+        </div>
+
+        <div class="retry-btn">
+            <p> << Retry</p>
+        </div>
+    </div>
+</body>
+</html>
